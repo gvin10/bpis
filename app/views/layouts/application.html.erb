@@ -14,6 +14,14 @@
     </nav>
 
   <body>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=211620802725926&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <div id="flex-content-container">
     <%= yield %>
 
@@ -38,13 +46,13 @@
         <%= link_to 'Donate', donate_path %>
       </div>
       <div class="col-12 col-sm-2 social">
-          <%= link_to 'https://www.facebook.com/groups/2085952038303182/?ref=br_rs' do %>
+          <%= link_to 'https://www.facebook.com/BPSBayArea/' do %>
           <i class="fab fa-facebook-square social-button fa-2x"></i>
           <% end %>
-          <%= link_to '#' do %>
+          <%= link_to 'http://meetu.ps/c/3G4Kr/xCQgN/f' do %>
           <i class="fab fa-meetup social-button fa-2x"></i>
           <% end %>
-          <%= link_to '#' do %>
+          <%= link_to 'https://www.linkedin.com/groups/13617142' do %>
           <i class="fab fa-linkedin social-button fa-2x"></i>
           <% end %>
       </div>

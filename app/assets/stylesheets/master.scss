@@ -30,10 +30,15 @@ h2 {
 }
 
 body {
-  background: image_url('what-the-hex.png');
+  background: image_url('connectwork.png');
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  color: white;
 }
 
 h1, h2, h3, h4, h5, h6, .navbar {
   margin: 0;
+}
+
+a {
+    color: white;
 }
