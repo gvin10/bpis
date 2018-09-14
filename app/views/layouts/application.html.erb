@@ -10,11 +10,11 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-    <nav class="h1 navbar navbar-light bg-faded">
+  <body>
+        <div id="flex-content-container">
+      <nav class="h1 navbar navbar-light bg-faded">
       <%= link_to 'Black Professionals in STEM', root_path %>
     </nav>
-
-  <body>
     <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -23,9 +23,8 @@
   js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=211620802725926&autoLogAppEvents=1';
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-    <div id="flex-content-container">
     <%= yield %>
-
+</div>
 <div id="footer">
   <div class="container">
     <div class="row">
