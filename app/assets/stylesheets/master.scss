@@ -21,6 +21,7 @@ h2 {
   background-size: cover;
   height: 370px;
   box-shadow: 0px 3px 8px #2a2a2a;
+  padding-bottom: 35%;
 }
 
 .feature {
@@ -33,6 +34,7 @@ body {
   background: image_url('connectwork.png');
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   color: white;
+  min-height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6, .navbar {
@@ -57,7 +59,6 @@ a {
   padding: 20px;
 }
 
-#embedsocial-album {
-  position: relative;
-  margin-bottom: auto;
+@-ms-viewport{
+  width: device-width;
 }
